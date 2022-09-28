@@ -1,0 +1,11 @@
+#cas{ 
+    margin-top: 1in;
+    color: white;
+}
+body{
+    
+    background-image:url(../IMAGES/greysky1.jpg) ;
+    background-color: white 20%;
+}
+/*    background-image: repeating-radial-gradient(grey, rgb(254, 254, 254) 10%, rgba(73, 65, 58, 0.645) 15%);
+*/
