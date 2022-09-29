@@ -28,12 +28,36 @@
 </nav>
     <div class = "container-fluid">
         <div class = "row">
+			<div class = "col-6">
 			<form class="form-inline my-2 my-lg-0">
-				<label for="fname">First name:</label><br>
-				<input type="text" id="fname" name="fname" value=""><br>
-				<label for="lname">Last name:</label><br>
-				<input type="text" id="lname" name="lname" value=""><br><br>
+					<label for = "groupMember">Group Member</label><br>
+					<select id = "groupMember" name = "groupMember" placeholder="1" class="formstuff">
+					<option value="0">Tom</option><option value="1">Daniel</option><option value="2">Casper</option>
+					</select><br><br>
+					
+				<label for="one">How did you feel this sprint went?</label><br>
+				<input type="text" id="one" name="one" value=""><br>
+				<label for="two">How do you feel the team did?</label><br>
+				<input type="text" id="two" name="two" value=""><br><br>
+				
+				
+				
 				<input type="submit" value="Submit">
+				</div>
+				<div class = "col-6">
+				
+				
+					<label for = "three">How do you feel you did this project?</label><br>
+					<select id = "three" name = "three" placeholder="1" class="formstuff">
+					<option value="0">Good</option><option value="1">Bad</option><option value="2">Good Enough</option>
+					</select><br><br>
+					
+				
+				<label for="four">How do you feel your work went?</label><br>
+				<input type="text" id="four" name="four" value=""><br>
+				<label for="five">How do you feel you did?</label><br>
+				<input type="text" id="five" name="five" value=""><br><br>
+				</div>
 			</form>
         </div>
       </div>
