@@ -4,7 +4,10 @@
 }
 body{
     
-    background-image:url(../IMAGES/greysky1.jpg) ;
+    background-image:url(../IMAGES/storm.jpg) ;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
     
 }
 /*    background-image: repeating-radial-gradient(grey, rgb(254, 254, 254) 10%, rgba(73, 65, 58, 0.645) 15%);
