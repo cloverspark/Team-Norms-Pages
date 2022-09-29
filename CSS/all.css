@@ -1,0 +1,19 @@
+.headmenu li, .footmenu li {
+	display:inline-block;
+}
+.headmenu a:link {
+	color:white;
+	text-decoration:none;
+}
+.headmenu a:hover {
+	text-decoration:underline;
+}
+.headmenu a:visited {
+	color:white;
+}
+.headmenu a:active {
+	color:white;
+}
+li {
+	color:white;
+}
